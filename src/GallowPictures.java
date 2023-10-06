@@ -1,5 +1,5 @@
-public class GallowPictures {
-    public static void fristMisstake(){
+public  class GallowPictures {
+    public  static void fristMisstake(){
         System.out.println("__________\n|        |\n|        O\n|\n|\n|\n|");
     }
     public static void secondMisstake(){
@@ -18,13 +18,4 @@ public class GallowPictures {
         System.out.println("__________\n|        |\n|        O\n|       /|\\    GAME OVER\n|        |\n|       / \\\n|" );
     }
 
-
-    public static void main(String[] args) {
-        fristMisstake();
-        secondMisstake();
-        thirdMisstake();
-        fourthMisstake();
-        fifthMisstake();
-        lastMisstake();
-    }
 }
