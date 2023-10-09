@@ -11,19 +11,26 @@ public class Logic {
     }
 
 
-    public static void agree() throws java.io.FileNotFoundException {
+    public static String agree() throws java.io.FileNotFoundException {
         String word = GettingRandomWord.GettingRandomWord();
         System.out.println(word);
-        String mask = "*".repeat(word.length());
-        System.out.println("Ваше слово: " + mask);
+        return word;
+
+
+    }
+
+    public static void game(String word) throws java.io.FileNotFoundException{
+        System.out.println(word);
+        int counter = 0;
 
         Scanner scanner = new Scanner(System.in);
         String answer = scanner.next();
+
+
+
+
         if (answer.length()>1 || !answer.matches("[а-яА-Я]")){
             System.out.println("Неккоректный ответ, введите букву!");
-
-        } else {
-            ;
         }
     }
 
@@ -42,8 +49,4 @@ class GettingRandomWord {
         return word;
     }
 
-
-    public static void main(String[] args) throws java.io.FileNotFoundException {
-
-    }
 }

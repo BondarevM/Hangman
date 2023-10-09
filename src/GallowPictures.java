@@ -18,4 +18,8 @@ public  class GallowPictures {
         System.out.println("__________\n|        |\n|        O\n|       /|\\    GAME OVER\n|        |\n|       / \\\n|" );
     }
 
+    public static void main(String[] args) {
+        lastMisstake();
+    }
+
 }

@@ -11,7 +11,8 @@ public class Main {
         if (answer.equals("N") || answer.equals("n")){
             Logic.disagree();
         } else if(answer.equals("Y") || answer.equals("y")){
-            Logic.agree();
+           String word =  Logic.agree();
+           Logic.game(word);
         } else {
             System.out.println("Некорректный ответ");
             greetings();
