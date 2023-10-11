@@ -12,7 +12,8 @@ public class Main {
             Logic.disagree();
         } else if(answer.equals("Y") || answer.equals("y")){
            String word =  Logic.agree();
-           Logic.game(word);
+           String mask = Logic.maska(word);
+           Logic.game(word,mask);
         } else {
             System.out.println("Некорректный ответ");
             greetings();

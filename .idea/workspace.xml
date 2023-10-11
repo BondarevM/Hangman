@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4ccf9052-1fa7-46f9-8b4b-0b573a59486f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Words" beforeDir="false" afterPath="$PROJECT_DIR$/Words" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/GigaPC/Desktop/Java/тесты/Test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GigaPC/Desktop/Java/PetProjects/Hangman&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -103,7 +105,9 @@
       <workItem from="1696655476328" duration="2431000" />
       <workItem from="1696664034889" duration="18000" />
       <workItem from="1696673354159" duration="1112000" />
-      <workItem from="1696859489645" duration="3367000" />
+      <workItem from="1696859489645" duration="3822000" />
+      <workItem from="1696867899384" duration="869000" />
+      <workItem from="1697010623124" duration="647000" />
     </task>
     <servers />
   </component>
