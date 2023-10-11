@@ -1,25 +1,35 @@
+import java.util.Scanner;
+
 public  class GallowPictures {
-    public  static void fristMisstake(){
-        System.out.println("__________\n|        |\n|        O\n|\n|\n|\n|");
-    }
-    public static void secondMisstake(){
-        System.out.println("__________\n|        |\n|        O\n|        |\n|        |\n|\n|" );
-    }
-    public static void thirdMisstake(){
-        System.out.println("__________\n|        |\n|        O\n|       /|\n|        |\n|\n|" );
-    }
-    public static void fourthMisstake(){
-        System.out.println("__________\n|        |\n|        O\n|       /|\\\n|        |\n|\n|" );
-    }
-    public static void fifthMisstake(){
-        System.out.println("__________\n|        |\n|        O\n|       /|\\\n|        |\n|       /\n|" );
-    }
-    public static void lastMisstake(){
-        System.out.println("__________\n|        |\n|        O\n|       /|\\    GAME OVER\n|        |\n|       / \\\n|" );
+    public static void makeMistake(int n){
+        if(n == 1){
+            System.out.println("__________\n|        |\n|        O\n|\n|\n|\n|");
+        }
+        if (n == 2){
+            System.out.println("__________\n|        |\n|        O\n|        |\n|        |\n|\n|");
+        }
+        if (n == 3){
+            System.out.println("__________\n|        |\n|        O\n|       /|\n|        |\n|\n|" );
+        }
+        if (n == 4){
+            System.out.println("__________\n|        |\n|        O\n|       /|\\\n|        |\n|\n|" );
+        }
+        if (n == 5){
+            System.out.println("__________\n|        |\n|        O\n|       /|\\\n|        |\n|       /\n|" );
+        }
+        if (n == 6) {
+            System.out.println("__________\n|        |\n|        O\n|       /|\\    GAME OVER\n|        |\n|       / \\\n|" );
+
+            System.out.println("Хотите попробовать еще? {Y}   {N}");
+            Scanner scanner = new Scanner(System.in);
+            String answer = scanner.next();
+
+
+            System.exit(0);
+        }
     }
 
-    public static void main(String[] args) {
-        lastMisstake();
-    }
+    public static void win(){
 
+    }
 }

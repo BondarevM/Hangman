@@ -5,6 +5,8 @@ public class Main {
         System.out.println("Вы хотите сыграть в игру? {Y}   {N}");
         startGame();
     }
+
+
     public static void startGame() throws java.io.FileNotFoundException {
         Scanner scanner = new Scanner(System.in);
         String answer = scanner.nextLine();
