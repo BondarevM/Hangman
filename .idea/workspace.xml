@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/Words" beforeDir="false" afterPath="$PROJECT_DIR$/Words" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GallowPictures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GallowPictures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,8 @@
       <workItem from="1696673354159" duration="1112000" />
       <workItem from="1696859489645" duration="3822000" />
       <workItem from="1696867899384" duration="869000" />
-      <workItem from="1697010623124" duration="5779000" />
+      <workItem from="1697010623124" duration="7133000" />
+      <workItem from="1697023569498" duration="310000" />
     </task>
     <servers />
   </component>

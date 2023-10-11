@@ -6,22 +6,23 @@ public class Main {
         startGame();
     }
 
-
     public static void startGame() throws java.io.FileNotFoundException {
         Scanner scanner = new Scanner(System.in);
         String answer = scanner.nextLine();
         if (answer.equals("N") || answer.equals("n")){
             Logic.disagree();
         } else if(answer.equals("Y") || answer.equals("y")){
-           String word =  Logic.agree();
-           String mask = Logic.maska(word);
-           Logic.game(word,mask);
+            String word =  Logic.agree();
+            String mask = Logic.maska(word);
+            Logic.game(word,mask);
         } else {
             System.out.println("Некорректный ответ");
-            greetings();
+            System.out.println("Введите Y(y) или N(n)");
+            startGame();
         }
         scanner.close();
     }
+
 
     public static void main(String[] args) throws java.io.FileNotFoundException {
         greetings();
