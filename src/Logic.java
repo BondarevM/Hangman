@@ -13,7 +13,7 @@ public class Logic {
         String word = GettingRandomWord.GettingRandomWord();
         return word;
     }
-    public static String maska(String word){
+    public static String createMask(String word){
         String mask = "*".repeat(word.length());
         return mask;
     }
@@ -31,7 +31,7 @@ public class Logic {
 
     static String used = "";
     static int counterOfMistakes = 0;
-    public static void game(String word, String maska) throws java.io.FileNotFoundException{
+    public static void gameLoop(String word, String maska) throws java.io.FileNotFoundException{
 
         System.out.println("Использованные буквы: " + used);
         System.out.println("Ваше слово: " + maska);
@@ -43,7 +43,7 @@ public class Logic {
 
         if (answer.length()>1 || !answer.matches("[а-яА-Я]")){
             System.out.println("Неккоректный ответ, введите одну букву на кириллице!");
-            game(word,maska);
+            gameLoop(word,maska);
         }  else if (word.contains(answer) && !used.contains(answer)){
             used +="'"+answer+"'";
 
@@ -55,16 +55,16 @@ public class Logic {
             if(!maska.contains("*")){
                 win(word);
             }
-            game(word,maska);
+            gameLoop(word,maska);
         } else if (used.contains(answer)) {
             System.out.println("Вы уже использовали данную букву!");
-            game(word,maska);
+            gameLoop(word,maska);
         } else {
             System.out.println("Неправильно!");
             used += "'"+answer+"'";
             counterOfMistakes++;
-            GallowPictures.makeMistake(counterOfMistakes);
-            game(word,maska);
+            GallowPictures.makeMistake(counterOfMistakes, word);
+            gameLoop(word,maska);
         }
     }
 }

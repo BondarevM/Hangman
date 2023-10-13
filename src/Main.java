@@ -13,8 +13,8 @@ public class Main {
             Logic.disagree();
         } else if(answer.equals("Y") || answer.equals("y")){
             String word =  Logic.agree();
-            String mask = Logic.maska(word);
-            Logic.game(word,mask);
+            String mask = Logic.createMask(word);
+            Logic.gameLoop(word,mask);
         } else {
             System.out.println("Некорректный ответ");
             System.out.println("Введите Y(y) или N(n)");
