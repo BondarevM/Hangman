@@ -1,7 +1,8 @@
 import java.util.Scanner;
+
 public class Main {
 
-    public static void greetings() throws java.io.FileNotFoundException{
+    public static void greetings() throws java.io.FileNotFoundException {
         System.out.println("Вы хотите сыграть в игру? {Y}   {N}");
         startGame();
     }
@@ -9,12 +10,12 @@ public class Main {
     public static void startGame() throws java.io.FileNotFoundException {
         Scanner scanner = new Scanner(System.in);
         String answer = scanner.nextLine();
-        if (answer.equals("N") || answer.equals("n")){
+        if (answer.equals("N") || answer.equals("n")) {
             Logic.disagree();
-        } else if(answer.equals("Y") || answer.equals("y")){
-            String word =  Logic.agree();
+        } else if (answer.equals("Y") || answer.equals("y")) {
+            String word = Logic.agree();
             String mask = Logic.createMask(word);
-            Logic.gameLoop(word,mask);
+            Logic.gameLoop(word, mask);
         } else {
             System.out.println("Некорректный ответ");
             System.out.println("Введите Y(y) или N(n)");

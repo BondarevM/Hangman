@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ccf9052-1fa7-46f9-8b4b-0b573a59486f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Words" beforeDir="false" afterPath="$PROJECT_DIR$/Words" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GallowPictures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GallowPictures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +29,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/GigaPC/Desktop/Java/Уроки Java с нуля/First project",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GigaPC/Desktop/Java/PetProjects/Hangman&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="GallowPictures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GallowPictures" />
@@ -115,7 +112,13 @@
       <workItem from="1697024605294" duration="459000" />
       <workItem from="1697044509362" duration="1118000" />
       <workItem from="1697117949370" duration="141000" />
-      <workItem from="1697192525370" duration="1338000" />
+      <workItem from="1697192525370" duration="1476000" />
+      <workItem from="1697198277084" duration="13000" />
+      <workItem from="1697210256577" duration="997000" />
+      <workItem from="1697355600381" duration="35000" />
+      <workItem from="1697470514612" duration="14000" />
+      <workItem from="1697868833647" duration="492000" />
+      <workItem from="1697877935616" duration="649000" />
     </task>
     <servers />
   </component>
